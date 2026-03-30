@@ -1,0 +1,22 @@
+{
+  "years": 7,
+  "city_mi": 4000,
+  "hwy_mi": 1800,
+  "discount_pct": 5.0,
+  "purchase_type": "Auto",
+  "makes": [
+    "Toyota"
+  ],
+  "powertrains": [],
+  "year_range": [
+    2018,
+    2026
+  ],
+  "max_price": 30000,
+  "req_cpo": true,
+  "req_hvac": true,
+  "req_awd": true,
+  "req_aeb": true,
+  "req_acc": true,
+  "min_iihs": 2
+}
