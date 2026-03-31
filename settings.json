@@ -3,17 +3,18 @@
   "city_mi": 3000,
   "hwy_mi": 2300,
   "discount_pct": 6.5,
+  "fuel_inflation_pct": 4.0,
   "purchase_type": "Auto",
   "makes": [
     "Toyota"
   ],
   "powertrains": [],
   "year_range": [
-    2019,
-    2021
+    2018,
+    2026
   ],
   "max_price": 30000,
-  "req_cpo": false,
+  "req_cpo": true,
   "req_hvac": true,
   "req_awd": true,
   "req_aeb": true,
