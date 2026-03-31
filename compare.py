@@ -187,7 +187,7 @@ def apply_filters(
     price_series = get_purchase_price(df, purchase_type)
     mask &= price_series <= max_price
     if req_cpo:
-        mask &= df["CPO_Available"] == "Yes"
+        mask &= (df["CPO_Available"] == "Yes") | (df["Year"] > 2024)
     if req_hvac:
         mask &= df["Has_Physical_HVAC"]
     if req_awd:
